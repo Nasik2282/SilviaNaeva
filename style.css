@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,600&family=Poppins:ital,wght@0,600;0,700;1,600;1,700&display=swap");
+body {
+  background: #ffff;
+}
+
+/* ini bagian mewarnai judul di halaman pertama */
+.header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+  /* or 133% */
+
+  color: #0e1840;
+}
+
+/* bagian ini untuk mengatur button mulai */
+.button-mulai {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  /* identical to box height, or 100% */
+
+  text-align: justify;
+
+  color: #ffffff;
+}
+
+/* ini untuk mengatur kalimat institusi */
+.institusi {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  /* identical to box height, or 100% */
+
+  text-align: justify;
+
+  color: #0e1840;
+}
+
+/* ini untuk mengatur header di halaman ke dua */
+.my_name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  /* font-size: 50px; */
+  line-height: 75px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+/* ini untuk mengatur tampilan di halaman ke 2 */
+.reason {
+  justify-content: center;
+}
+
+/* mengatur class definition */
+.definition {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+
+  text-align: justify;
+
+  color: #ffffff;
+}
+
+/* mengatur box */
+.box {
+  background-color: #79aafe;
+  box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* mengatur halaman 3 */
+.HPP3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+  /* or 143% */
+
+  color: #0e1840;
+}
+
+.PP3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 140% */
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+.img3 {
+  width: 350px;
+  height: 350px;
+}
+
+.kelebihan {
+  background: #ffffff;
+  box-shadow: 20px 10px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-left: -150px;
+  margin-top: 50px;
+}
+
+.penjelasan {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 30px;
+  margin-left: 30px;
+  /* or 120% */
+
+  text-align: justify;
+
+  color: #4a516f;
+}
+
+/* mengatur halman 4 */
+
+.HP4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.artikel {
+  margin-top: 50px;
+}
+
+.artikel-kids {
+  background: #ffffff;
+  box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  height: 400px;
+  margin-top: -50px;
+}
+
+.artikel-kids img {
+  width: 350px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.artikel1 {
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  /* or 120% */
+
+  text-align: center;
+
+  color: #0e1840;
+}
+.artikel-kids button {
+  margin-left: 150px;
+  background: #79aafe;
+}
+
+/* halaman 5 */
+.FGI5 img {
+  width: 350px;
+}
+
+.HP5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 55px;
+  /* or 150% */
+
+  color: #0e1840;
+}
+
+.headerhal5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 75px;
+  height: 200px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.akhir button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 55px;
+  /* identical to box height, or 167% */
+
+  color: #d43393;
+
+  background: #ffffff;
+  border-radius: 20px;
+  margin-left: 350px;
+  margin-top: -100px;
+  border: none;
+}
+
+/* bagian file artikel 1 */
+
+.file-artikel-heading1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+  /* identical to box height, or 150% */
+
+  color: #0e1840;
+}
+
+.figure-file-artikel-1 {
+  width: 350px;
+}
+
+.penjelasan-file-artikel-1 {
+  text-align: justify;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 45px;
+  /* or 180% */
+
+  text-align: justify;
+
+  color: #0e1840;
+
+  margin-top: 150px;
+}
+.button-file-artikel-1 button {
+  text-decoration: none;
+  color: #ffff;
+}
+
+/* akhir file artikel 1 */
