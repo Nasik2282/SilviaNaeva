@@ -275,7 +275,8 @@ body {
 /* ini buat supaya website bisa diakses pada layar smartphone */
 
 @media all and (max-width: 424px) {
-  .gambar img {
+  .gambar img,
+  .ellips {
     visibility: hidden;
   }
   .header {
@@ -451,5 +452,41 @@ body {
     margin-left: 0px;
     font-size: 25px;
     line-height: 35px;
+  }
+
+  .file-artikel-heading1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    margin-left: -20px;
+    text-align: center;
+    width: 400px;
+    padding-right: 0px;
+    /* identical to box height, or 150% */
+
+    color: #0e1840;
+  }
+  .penjelasan-file-artikel-1 {
+    text-align: justify;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 00;
+    font-size: 15px;
+    line-height: 45px;
+    /* or 180% */
+
+    text-align: justify;
+
+    color: #0e1840;
+
+    margin-top: 0px;
+    width: 300px;
+    margin-left: 30px;
+  }
+
+  .button-file-artikel-1 {
+    margin-left: 150px;
   }
 }
